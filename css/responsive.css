@@ -1,0 +1,15 @@
+@media only screen and (max-width:766px) {
+    body {
+        background-color: rgb(182, 241, 253);
+    }
+    .nav {
+        display: none;
+    }
+    .links,
+    .fa-bars-staggered {
+        display: block;
+        font-size: 50px;
+        margin-top: 10px;
+        color: var(--red);
+    }
+}

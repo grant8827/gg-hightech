@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    contain: content;
+}
+
+:root {
+    /*color variable*/
+    --blue: #1365FF;
+    --light-blue: #A4D8FF;
+    --red: rgb(255, 32, 62);
+    --yellow: #EBA210;
+    --purple: #7714A1;
+}
+
+
+/*nav*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
