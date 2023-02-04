@@ -1,15 +1,25 @@
+@media only screen and (max-width:1366px) {
+ .head-area{
+    width: fit-content;
+ }
+ .head-details{
+    width: fit-content;
+ }
+ .product-1{
+    
+ }
+}
 @media only screen and (max-width:766px) {
     body {
-        background-color: rgb(182, 241, 253);
+        background-color: rgb(231, 231, 231);
     }
     .nav {
         display: none;
     }
-    .links,
-    .fa-bars-staggered {
+    .links span {
         display: block;
         font-size: 50px;
         margin-top: 10px;
-        color: var(--red);
+        color: var(--purple);
     }
 }

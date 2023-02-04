@@ -77,7 +77,16 @@
         align-items: center;
         text-align: center;
     }
-    
+    .search-area input{
+        padding: 10px;
+        width: 400px;
+        border-radius: 50px;
+        border: none;
+    }
+    .search-area i{
+        position: relative;
+        right: 30px;
+    }
     .head-details h2 {
         color: #fff;
         font-size: 35px;
@@ -142,9 +151,32 @@
         gap: 30px;
         margin-top: 50px;
     }
-    
+    .items{
+        width: 250px;
+        height: auto;
+        background-color: #fff;
+        box-shadow: 10px 15px 20px rgba(119, 20, 160, 0.1);
+        overflow: hidden;
+        text-align: center;
+        padding: 10px;
+       
+    }
+    .items button{
+        width: 100px;
+        padding: 10px;
+        background-color: var(--yellow);
+        border: none;
+        border-radius: 5px;
+       opacity: 1.8;
+       cursor: pointer;
+        
+    }
+    .items button a:hover{
+       color: #fff;
+        opacity: 5;
+    }
     .product-1 img {
-        width: 300px;
+        width: 200px;
         opacity: 6;
     }
     
