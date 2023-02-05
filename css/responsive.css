@@ -1,14 +1,15 @@
 @media only screen and (max-width:1366px) {
- .head-area{
-    width: fit-content;
- }
- .head-details{
-    width: fit-content;
- }
- .product-1{
-    
- }
+    .head-area {
+        width: fit-content;
+    }
+    .head-details {
+        width: fit-content;
+    }
+    .product-1 {
+        width: -webkit-fill-available;
+    }
 }
+
 @media only screen and (max-width:766px) {
     body {
         background-color: rgb(231, 231, 231);
@@ -21,5 +22,8 @@
         font-size: 50px;
         margin-top: 10px;
         color: var(--purple);
+    }
+    #x-bar {
+        display: none;
     }
 }
