@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./assets/images/iphone-14-pro-max-case.jpg" />
+                    <p>Iphone 14 pro 128gb</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/Wireless bluetooth earbuds.jpg" alt="product img" />
+                    <p>Wireless bluetooth earphone</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/samsung-galaxy-s22.jpg" alt="product img" />
+                    <p>samsung-galaxy-s22 128gb</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/iphone-14-pro-max-case.jpg" />
+                    <p>Iphone 14 pro 128gb</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/Wireless bluetooth earbuds.jpg" alt="product img" />
+                    <p>Wireless bluetooth earphone</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/samsung-galaxy-s22.jpg" alt="product img" />
+                    <p>samsung-galaxy-s22 128gb</p>
+                    <button><a href="#">Buy Now</a></button>
+                </div>
+                <div class="item">
+                    <h2>Slide 7</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

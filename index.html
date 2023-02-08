@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
 
@@ -32,6 +35,9 @@
                 </div>
                 <!--nav links-->
                 <div class="links">
+                    <span id="barMenu"><i class="fa-solid fa-bars-staggered"></i></span>
+                    <span id="x-bar"> <i class="fa-solid fa-x"></i></span>
+
                     <ul id="nav" class="nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -39,9 +45,6 @@
                         <li><a href="#">Login</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                    <span id="barMenu"><i class="fa-solid fa-bars-staggered"></i></span>
-                    <span id="x-bar"> <i class="fa-solid fa-x"></i></span>
-
                 </div>
                 <!--shopping cart-->
                 <div class="cart">
@@ -49,6 +52,7 @@
                 </div>
             </div>
         </nav>
+        <!--head area-->
         <section class="container">
             <div class="head-area">
                 <div class="head-details">
@@ -66,8 +70,38 @@
                         <i class="fa-brands fa-instagram"></i>
                     </div>
                 </div>
-                <img src="./assets/images/phone acc.jpg" alt="phone acc" />
-            </div>
+                <div class="head-slide">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="./assets/images/phone acc.jpg" style="width:100%">
+                            <div class="text"></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="./assets/images/phone acc2.jpg" style="width:100%">
+                            <div class="text"></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="./assets/images/phone acc3.jpg" style="width:100%">
+                            <div class="text"></div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+
+                </div>
         </section>
         <!--product area-->
         <section class="products-container">
@@ -153,7 +187,7 @@
                     <button><a href="#">Add to cart</a></button>
                 </div>
             </div>
-
+            <!--bonner area-->
         </section>
         <section class="bonner-container">
             <div class="bonner-detail">
@@ -174,9 +208,25 @@
                         <p>samsung-galaxy-s22 128gb</p>
                         <button><a href="#">Buy Now</a></button>
                     </div>
+                    <div class="bonner-img">
+                        <img src="./assets/images/iphone-14-pro-max-case.jpg" />
+                        <p>Iphone 14 pro 128gb</p>
+                        <button><a href="#">Buy Now</a></button>
+                    </div>
+                    <div class="bonner-img">
+                        <img src="./assets/images/Wireless bluetooth earbuds.jpg" alt="product img" />
+                        <p>Wireless bluetooth earphone</p>
+                        <button><a href="#">Buy Now</a></button>
+                    </div>
+                    <div class="bonner-img bonner-3">
+                        <img src="./assets/images/samsung-galaxy-s22.jpg" alt="product img" />
+                        <p>samsung-galaxy-s22 128gb</p>
+                        <button><a href="#">Buy Now</a></button>
+                    </div>
                 </div>
             </div>
         </section>
+        <!--product area-->
         <section class="products-container">
             <div class="product-1">
                 <div class="items">
@@ -262,6 +312,7 @@
             </div>
 
         </section>
+        <!--footer area-->
         <footer class="foot-area">
             <div class="foot-info-top">
                 <div class="foot-info-1">
@@ -309,6 +360,7 @@
 
             </div>
             <hr>
+            <!--copy right-->
             <div class="foot-bottom">
                 <p>Copyright © GG High-Tech Electronic Store</p>
                 <a id="toTop" href="/"><i class="fas fa-chevron-up"></i></a>
