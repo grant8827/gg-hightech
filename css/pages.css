@@ -1,0 +1,138 @@
+/*about page*/
+
+
+/*shop page*/
+
+/*checkout page*/
+
+
+/*sign up*/
+.sign-up-head h2{
+font-size: 30px;
+text-align: center;
+color: var(--purple);
+
+}
+.sign-up-head hr {
+width: 100px;
+border: 2px solid var(--yellow);
+margin-top: -20px;
+}
+.signup-page{
+    display:flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 180px;
+}
+*{
+    outline: none;
+}
+.signUp{
+    text-align: center;
+}
+.form{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+    margin: auto;
+    padding: 20px;
+   text-align:start ;
+
+}
+.form input{
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    width:400px;
+    margin: 0px;
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+
+   
+}
+
+.form .fa-user, 
+.form .fa-phone, 
+.form .fa-envelope{
+background-color: #d49d0588;  
+padding: 9px;
+position: relative;
+left: 5px;
+top: 1px;
+border-radius: 5px 0 0 5px;
+color: rgb(0, 0, 0);
+}
+
+.first-name, .last-name, 
+.email, .phone, .user-name, 
+.password{
+margin-top: 20px;
+   font-size: 18px;   
+}
+#submit{
+    background-color: var(--yellow);
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--purple);
+}
+
+.signIn{
+    width: 100%;
+    height: 100px;
+    background-color:var(--yellow);
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 13px;
+    
+}
+.signIn button{
+    width: 100px;
+padding: 10px;
+   background-color: var(--purple);
+   border-radius: 5px;
+   color: white;
+    
+}
+.signIn p{
+   font-size: 18px;
+   color: var(--purple);
+   margin-top: 20px;
+    
+}
+
+
+
+
+ .signUp{
+    width: 600PX;
+    margin: auto;
+    border: 1px solid #bbb;
+    padding: 10px;
+ }
+
+.signup-page h3, .products-container h2{
+    font-size: 22px;
+    color: var(--yellow);
+}
+
+
+/*contact page*/
+
+#message{
+    width: 450px;
+    height: 200px;
+    margin-top: 20px;
+       background-color: #e2e2e2;
+       border: none;
+       border-radius: 5px;
+}
+
+.contact-form{
+    border: none;
+}
