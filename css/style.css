@@ -422,6 +422,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.foot-area select{
+    padding: 10px;
+    border-radius: 5px;
+}
 
 
 /*footer 4*/

@@ -19,11 +19,12 @@ border: 2px solid var(--yellow);
 margin-top: -20px;
 }
 .signup-page{
-    display:flex;
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(500px, 1fr));
     margin-top: 100px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 180px;
+    gap: 20px;
 }
 *{
     outline: none;
@@ -135,4 +136,7 @@ padding: 10px;
 
 .contact-form{
     border: none;
+}
+
+  
 }
